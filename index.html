@@ -40,44 +40,7 @@
                     <a class="btn btn-white wow fadeIn " onclick="openModal()">
                         <i class="fas fa-concierge-bell"></i>&nbsp; Realizar Pedido
                     </a>
-                   <!-- Modal para pedido -->
-                        <div id="pedidoModal" class="modal">
-                            <div class="modal-content">
-                                <span class="close" onclick="closeModal()">&times;</span>
-                                <h2>Realizar Pedido</h2>
-                                <div class="mb-3">
-                                    <label for="nomeCliente">Seu Nome<span style="color: red;">*</span></label>
-                                    <input type="text" id="nomeCliente" placeholder="Digite seu nome" class="form-control"/>
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <label for="pedidoTexto">Pedido<span style="color: red;">*</span></label>
-                                    <textarea id="pedidoTexto" placeholder="Digite o seu pedido..." rows="2" class="form-control"></textarea>
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <label for="bairro">Bairro<span style="color: red;">*</span></label>
-                                    <input type="text" id="bairro" placeholder="Digite o bairro" class="form-control"/>
-                                </div>
-                        
-                                <div class="mb-3">
-                                    <label for="rua">Rua<span style="color: red;">*</span></label>
-                                    <input type="text" id="rua" placeholder="Digite a rua" class="form-control"/>
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <label for="numero">Número<span style="color: red;">*</span></label>
-                                    <input type="text" id="numero" placeholder="Número" class="form-control"/>
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <label for="referencia">Ponto de Referência</label>
-                                    <input id="referencia" placeholder="Digite um ponto de referência" rows="2" class="form-control">
-                                </div>
-                        
-                                <button class="btn btn-confirm" onclick="enviarPedido()">Confirmar Pedido</button>
-                            </div>
-                        </div>
+                   
                 </div>
             </nav>
         </div>
@@ -209,6 +172,46 @@
                     <a class="btn btn-white wow fadeIn d-flex justify-content-center align-items-center" onclick="openModal()">
                         <i class="fas fa-concierge-bell"></i>&nbsp; Realizar Pedido
                     </a>
+                    <!-- Modal para pedido -->
+                    <div id="pedidoModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <h2>Realizar Pedido</h2>
+                            <div class="mb-3">
+                                <label for="nomeCliente">Seu Nome<span style="color: red;">*</span></label>
+                                <input type="text" id="nomeCliente" placeholder="Digite seu nome" class="form-control"/>
+                            </div>
+                                
+                            <div class="mb-3">
+                                <label for="pedidoTexto">Pedido<span style="color: red;">*</span></label>
+                                <textarea id="pedidoTexto" placeholder="Digite o seu pedido..." rows="2" class="form-control"></textarea>
+                            </div>
+                                
+                            <div class="mb-3">
+                                <label for="bairro">Bairro<span style="color: red;">*</span></label>
+                                <input type="text" id="bairro" placeholder="Digite o bairro" class="form-control"/>
+                            </div>
+                        
+                            <div class="mb-3">
+                                <label for="rua">Rua<span style="color: red;">*</span></label>
+                                <input type="text" id="rua" placeholder="Digite a rua" class="form-control"/>
+                            </div>
+                                
+                            <div class="mb-3">
+                                <label for="numero">Número<span style="color: red;">*</span></label>
+                                <input type="text" id="numero" placeholder="Número" class="form-control"/>
+                            </div>
+                                
+                            <div class="mb-3">
+                                <label for="referencia">Ponto de Referência</label>
+                                <input id="referencia" placeholder="Digite um ponto de referência" rows="2" class="form-control">
+                            </div>
+                        
+                            <button class="btn btn-confirm" onclick="enviarPedido()">Confirmar Pedido</button>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
 
                 <div class="col-12 col-one">

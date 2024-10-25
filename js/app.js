@@ -220,3 +220,4 @@ function enviarPedido() {
     window.open(url, "_blank"), closeModal();
     
 }
+
